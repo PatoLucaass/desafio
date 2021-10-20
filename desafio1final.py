@@ -233,9 +233,11 @@ conteoA = 16 - conteoP - conteoB
 #########################
 porceP = (conteoP/16)*100
 porceB = (conteoB/16)*100
+porceA = (conteoA/16)*100
 #########################
 #Se imprimen las cantidades y porcentajes
 print("La cantidad de agua es:",conteoA)
+print("El porcentaje de agua es:",round(porceA),"%")
 print("La cantidad de plantas es:",conteoP)
 print("El porcentaje de plantas es:",round(porceP),"%")
 print("La cantidad de bacterias es:",conteoB)
