@@ -14,6 +14,7 @@ def menu():
     opcion = int(input())
     return opcion
 
+#se crea la respuesta a la opción 1
 def opc1():
     print("GENERAR ESTADO INICIAL DEL PUERTO SECO")
     m = int(input("Ingrese la cantidad máxima de pilas de contenedores"))
